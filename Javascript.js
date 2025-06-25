@@ -30,11 +30,11 @@ Es ist vielleicht noch nicht perfekt, aber es ist echt. Und es zeigt, wie viel L
     else{
         bild.setAttribute("src", "hobbysemfundo.png");
         back.style.backgroundColor = "white";
-        hauptfoto.style.backgroundColor = "white";
-        gelernt.style.backgroundColor = "white";
-        erklearung.style.backgroundColor = "white";
-        menu.style.backgroundColor = "oklch(26.8% 0.007 34.298)";
-        h3.style.color = "oklch(26.8% 0.007 34.298)";
+        hauptfoto.style.backgroundColor = "oklch(37.4% 0.01 67.558)";
+        gelernt.style.backgroundColor = "oklch(37.4% 0.01 67.558)";
+        erklearung.style.backgroundColor = "oklch(37.4% 0.01 67.558)";
+        menu.style.backgroundColor = "oklch(37.4% 0.01 67.558)";
+        h3.style.color = "#5a0f1b";
         projekte[0].style.color = "oklch(14.1% 0.005 285.823)";
         p.innerHTML = `Diese Funktion dient nur dazu zu zeigen, dass ich mit JavaScript grundlegende Logik wie Bedingungen, Styles und Bildwechsel anwenden kann.`;
 
