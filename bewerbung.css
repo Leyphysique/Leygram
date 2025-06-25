@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    text-align: center;
+     grid-template-areas: 
+                'nome menu'
+                'nome perfil'
+                'descricao descricao';
+                background-color: oklch(20.5% 0 0);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nome, .menu, .perfil, .descricao{
+    display: grid;
+   
+}
+
+.Ley{
+    width: 700px;
+}
+
+.nome{
+    width: 700px;
+    color: white;
+    padding: 200px;
+    font-size: 40px;
+    grid-area: nome;
+}
+
+.perfil{
+    grid-area: perfil;
+}
+
+.descricao{
+    font-size: 20px;
+    grid-area: descricao;
+    background-color: oklch(26.9% 0 0);
+    height: 150px;
+}
+.texto{
+    margin-top: 30px;
+    color: black;
+}
+.Jobname{
+    color: oklch(55.4% 0.046 257.417);
+    font-size: 20px;
+}
+
+.menu{
+    gap: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    grid-area: menu;
+    background-color: oklch(20.5% 0 0);
+}
+.insta{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.itemB:hover {
+    transform: scale(1.1);
+    background-color:  white;
+    color: black;
+}
+
+.itemB{
+    margin-top: 20px;
+    width: 150px;
+    margin-right: 20px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: all(1.1);
+    background-color: oklch(20.5% 0 0);
+    color: #f5f5f5;
+    border: solid oklch(20.5% 0 0);
+}
+h1, h2, h3{
+   font-family: "DM Serif Text";
+}
+p{
+   font-family: "Tinos";
+    color: white;
+}
+.bewerbung{
+ color: #8e2c3b;
+ font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: #8e2c3b;
+}
+

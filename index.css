@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+   display: grid;
+   grid-template-areas: "menu menu menu"
+                        "Erklearung Erklearung Hauptfoto"
+                        "gelernt gelernt Hauptfoto";
+}
+/*Grid Area*/
+#menu{
+   display: flex;
+   flex-direction: row-reverse;
+   grid-area: menu;
+   background-color: oklch(20.5% 0 0);
+   height: 50px;
+}
+#gelernt{
+   grid-area: gelernt;
+  background-color: oklch(20.5% 0 0);
+  height: 300px;
+}
+#Erklearung{
+   grid-area: Erklearung;
+   background-color: oklch(20.5% 0 0);
+}
+#Hauptfoto{
+   grid-area: Hauptfoto;
+   background-color:oklch(20.5% 0 0);
+}
+/*Costum Area*/
+.Hauptfoto{
+   width: 460px;
+}
+#Erklearung{
+   height: 500px;
+}
+.Erklearung{
+   margin-left: 30px;
+   color: #f5f5f5;
+}
+.gelernt{
+   background-color: #5a0f1b;
+   margin-left: 50px;
+   font-size: 15px;
+   padding: 30px;
+}
+
+.Startseite{
+   margin-top: 10px;
+   margin-right: 30px;
+    height: 30px;
+    border-radius: 20px;
+    width: 80px;
+    background-color: #8e2c3b;
+    border: solid #8e2c3b;
+    color: #f5f5f5;
+    transition: all(1.1)
+}
+.Startseite:hover{
+   transform: scale(1.1);
+    background-color:  #b43e4a;
+    color: #ffffff;
+}
+h1, h2, h3{
+   font-size: 150px;
+   font-family: "DM Serif Text";
+}
+p{
+   font-family: "Tinos";
+    color: #f5f5f5;
+}
+.meine{
+   color: #8e2c3b;
+}
